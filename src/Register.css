@@ -1,0 +1,63 @@
+/* Register.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.register-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Adjust as needed */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 22px); /* Adjust width to account for padding and border */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.btn-register {
+  width: calc(100% - 22px); /* Adjust width to account for padding and border */
+  padding: 10px;
+  background-color: #000; /* Change to black background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #333; /* Darken the background on hover */
+}
