@@ -266,6 +266,26 @@ export const mockDataInvoices = [
   },
 ];
 
+export const feedBack=[
+ {
+      name: 'Jenny Wilson',
+      rating: 5,
+      comment: 'The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome. I had a burger with greens (gluten-free) which was also very good. They were very conscientious about gluten allergies.',
+    },
+    {
+      name: 'Dianne Russell',
+      rating: 4,
+      comment: 'We enjoyed the Eggs Benedict served on homemade focaccia bread and hot coffee. Perfect service.',
+    },
+    {
+      name: 'Devon Lane',
+      rating: 4,
+      comment: 'Normally wings are wings, but theirs are lean meaty and tender, and the sauce has a unique spicy-sweet balance.',
+    },
+
+  
+]
+
 export const mockTransactions = [
   {
     txId: "01e4dsa",
